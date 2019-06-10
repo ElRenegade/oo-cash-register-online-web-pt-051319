@@ -11,7 +11,7 @@ class CashRegister
     previous_total = self.total
     self.total = price * quantity
     @items << title
-    
+
   end
 
 end
