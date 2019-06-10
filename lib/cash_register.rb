@@ -11,6 +11,7 @@ class CashRegister
     @total = price * quantity
     previous_total = @total
     @items << title
+    @total
 
   end
 
