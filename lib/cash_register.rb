@@ -5,9 +5,6 @@ class CashRegister
     @total = 0
     @discount = discount
   end
-  def total
-    @total = total
-  end
 
   def add_item(title, price, quantity = 1)
     if quantity>1
